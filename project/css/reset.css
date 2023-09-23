@@ -1,0 +1,38 @@
+/*初始化的样式 以及公共样式*/
+*{
+	margin:0;
+	padding:0;
+}
+.center{
+	width: 1226px;
+	margin:auto;
+	/* background-color: aqua; */
+}
+ul,li,dl{
+	/* 取消无序列表默认的标识符 */
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clearFix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+.xianshi{
+	float: left;
+}
+.line{
+	float: left;
+}
+.southdl{
+	float: left;
+}

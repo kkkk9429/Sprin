@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xiaomi">
+    <output-path>D:/web打包</output-path>
+    <root id="archive" name="unnamed.war">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="directory" name="web">
+        <element id="dir-copy" path="$PROJECT_DIR$/project" />
+      </element>
+    </root>
+  </artifact>
+</component>
